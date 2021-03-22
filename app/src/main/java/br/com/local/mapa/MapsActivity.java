@@ -42,5 +42,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng anhangabau = new LatLng(-23.54451549008077, -46.635819771525846);
         mMap.addMarker(new MarkerOptions().position(anhangabau).title("Praça do Anhangabaú"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(anhangabau,15));
+
     }
 }
